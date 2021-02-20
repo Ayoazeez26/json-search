@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Search System</title>
+</head>
+<body>
+  <div class="container">
+    <form onsubmit="runSearch(event)">
+      <div class="fname">
+        <label for="name">First Name <span class="asterics">*</span></label>
+        <input type="text" id="fname" placeholder="input your first name">
+      </div>
+      <div class="lname">
+        <label for="name">Last Name <span class="asterics">*</span></label>
+        <input type="text" id="lname" placeholder="input your last name">
+      </div>
+      <div class="email">
+        <label for="email">Email (optional)</label>
+        <input type="email" id="email" placeholder="Enter email here">
+      </div>
+      <div class="phone">
+        <label for="phone">Phone Number (optional)</label>
+        <input type="text" id="phone" placeholder="input your Phone number">
+      </div>
+      <button type="submit">Search</button>
+    </form>
+    <div class="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

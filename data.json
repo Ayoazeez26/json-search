@@ -1,0 +1,48 @@
+{
+  "names": [
+    {
+      "lname": "Abdulazeez",
+      "fname": "Abdulhakeem",
+      "email": "ayoazeez26@gmail.com",
+      "phone": 9035858578,
+      "total": 29,
+      "pledge": "75k"
+    },
+    {
+      "lname": "Onemano",
+      "fname": "Oluwasanmi",
+      "email": "oluwasanmionemano@gmail.com",
+      "phone": "09028472853",
+      "total": 56,
+      "pledge": "150k"
+
+    },
+    {
+      "lname": "Meliga",
+      "fname": "Victoria",
+      "email": "victoriameliga@gmail.com",
+      "phone": "08036739275",
+      "total": 19,
+      "pledge": "75k"
+
+    },
+    {
+      "lname": "Itodo",
+      "fname": "Ane",
+      "email": "rexItodo@gmail.com",
+      "phone": "07018571322",
+      "total": 96,
+      "pledge": "400k"
+
+    },
+    {
+      "lname": "Ayodeji",
+      "fname": "Abdulhakeem",
+      "email": "ayohakeem26@gmail.com",
+      "phone": "08139947185",
+      "total": 80,
+      "pledge": "250k"
+
+    }
+  ]
+}
