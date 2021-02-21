@@ -1,11 +1,7 @@
-
 const runSearch = (e) => {
   e.preventDefault();
-  const fname = document.querySelector('#fname').value;
-  const lname = document.querySelector('#lname').value;
   const email = document.querySelector('#email').value;
-  const phone = document.querySelector('#phone').value;
-  console.log(fname, lname, email, phone);
+  console.log(email);
   fetch("./data.json")
   .then(response => {
     return response.json();
@@ -14,24 +10,14 @@ const runSearch = (e) => {
 
   let objects = [];
   const searchThrough = (data) => {
-    if (fname == '' || lname == '') {
+    if (email == '') {
       errorMsg('Required field missing');
     } else {
       par = data.names;
       par.forEach( (e, i) => {
-        if (fname != '' && lname != '' && email != '' && phone != '') {
-          if (e.fname.toLowerCase() == fname.toLowerCase() && e.lname.toLowerCase() == lname.toLowerCase() && e.email.toLowerCase() == email.toLowerCase() && e.phone == phone) {
-            objects.push(par[i]);
-          }
-        } else if (fname != '' && lname != '' && email != '' && phone == '') {
-          if (e.fname.toLowerCase() == fname.toLowerCase() && e.lname.toLowerCase() == lname.toLowerCase() && e.email.toLowerCase() == email.toLowerCase()) {
-            objects.push(par[i]);
-          }
-        } else if (fname != '' && lname != '' && email == '' && phone == '') {
-          if (e.fname.toLowerCase() == fname.toLowerCase() && e.lname.toLowerCase() == lname.toLowerCase()) {
-            objects.push(par[i]);
-          }
-        }
+        if (e.email.toLowerCase() == email.toLowerCase()) {
+          objects.push(par[i]);
+        } 
       }); 
       console.log(objects);
       const results = document.querySelector('.result');
