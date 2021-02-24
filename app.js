@@ -63,7 +63,7 @@ const apiKey = "SG.rctK6EUwTHi7ky3u7PW3oA.9GIAIgd_wUc9qIrbtl98Oa2bHHIFcBGgtSDBsK
             "type": "text/html", "value": `<table style="border-collapse: collapse; margin: 25px 0; font-size: 0.9em; min-width: 400px;">
             <thead>
                 <tr style="background-color: #009879; color: #ffffff; text-align: center;">
-                    <th style="padding: 12px 15px;" colspan="2">Result</th>
+                    <th style="padding: 12px 15px;" colspan="2">Your Contribution</th>
                 </tr>
             </thead>
             <tbody>
