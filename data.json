@@ -47,6 +47,38 @@
       "phone": "08139298185",
       "total": 990,
       "pledge": "20k"
+    },
+    {
+      "lname": "Aliyu",
+      "fname": "Xaxxoo",
+      "email": "bnahmad83@gmail.com",
+      "phone": 8033501643,
+      "total": 69,
+      "pledge": "1,000,000"
+    },
+    {
+      "lname": "Abubakar",
+      "fname": "Muhammad",
+      "email": "imuhdjml@gmail.com",
+      "phone": 80925355550,
+      "total": 659,
+      "pledge": "10,000"
+    },
+    {
+      "lname": "Abubakre",
+      "fname": "Abdulqudus",
+      "email": "abdulqudusabubakre@gmail.com",
+      "phone": 2349031669392,
+      "total": 900,
+      "pledge": "70,000"
+    },
+    {
+      "lname": "Arowosegbe",
+      "fname": "Gabriel",
+      "email": "arowosegbe67@gmail.com",
+      "phone": 7016762847,
+      "total": 69,
+      "pledge": "190,000,000"
     }
   ]
 }
